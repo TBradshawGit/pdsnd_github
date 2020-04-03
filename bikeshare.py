@@ -186,6 +186,7 @@ def user_stats(df):
 
 def main():
     while True:
+        #Loads in the user input: city, month and day
         city, month, day = get_filters()
 
         print("\nShowing data for: {}, {}, {}".format(city, month, day))
