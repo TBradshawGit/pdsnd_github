@@ -6,6 +6,7 @@ Explore US Bikeshare Data
 
 ### Description
 Use Python to understand US bikeshare data for Chicago, New York City and Washington.
+The program let's the user choose a US city, month and day to analyse.
 
 ### Files used
 Bikeshare.py
