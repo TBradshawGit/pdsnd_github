@@ -1,3 +1,6 @@
+# Bikeshare program that allows the user to enter a city, month and day to analyse.
+#Information will be returned and further inputs requested from the user.
+
 import time
 import pandas as pd
 import numpy as np
