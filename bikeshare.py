@@ -189,12 +189,24 @@ def user_stats(df):
 
 def main():
     while True:
+        #Loads in the user input: city, month and day
         city, month, day = get_filters()
+
+        print("\nShowing data for: {}, {}, {}".format(city, month, day))
+
+
         df = load_data(city, month, day)
 
+        #Displays statistics on the most frequent times of travel.
         time_stats(df)
+
+        #Displays statistics on the most popular stations and trip.
         station_stats(df)
+
+        #Displays statistics on the total and average trip duration.
         trip_duration_stats(df)
+
+        #Displays statistics on bikeshare users.
         user_stats(df)
 
         while True:
